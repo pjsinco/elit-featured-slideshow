@@ -2,3 +2,4 @@
 *.swo
 *.swm
 vendor/*
+nodemodules/*
