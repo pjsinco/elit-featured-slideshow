@@ -5,3 +5,8 @@
     * "The "single_template" filter can be used to load a custom template for a given post. It will replace the template used whenever the "single" template is called.
 
 * [Including Single- & Archive- templates for Custom Post Type in WordPress Plugins](http://pateason.com/including-single-archive-templates-custom-post-type-wordpress-plugins/)
+
+###Tue May 12 10:54:04 2015 CDT
+* [Best way to initiate a class in a WP plugin?](http://wordpress.stackexchange.com/questions/70055/best-way-to-initiate-a-class-in-a-wp-plugin)
+
+
