@@ -36,7 +36,7 @@ class Elit_Slideshow {
       'nav'      => true,
       'random'   => false,
       'pause'    => false,
-      'maxwidth' => '768', // not user changeable
+      'maxwidth' => '992', // not user changeable
     );
 
     add_action( 'wp_enqueue_scripts', array( $this, 'register_scripts' ) );
@@ -103,7 +103,7 @@ class Elit_Slideshow {
     
     foreach ( $this->ids as $id ) {
       $attachment = get_post( $id );
-      $image_url = wp_get_attachment_image_src( $id, 'elit-large', false ); 
+      $image_url = wp_get_attachment_image_src( $id, 'elit-super', false ); 
   
       $output .= '<li class="elit-slideshow__list-item">';
       $output .= '<img class="image__img elit-slideshow__img" src="' . $image_url[0] .  '" />';
