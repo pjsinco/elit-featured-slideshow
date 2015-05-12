@@ -41,6 +41,7 @@ Thumbs.db
 
 *.sass-cache*
 
+vendor/*
 node_modules/*
 bower_components/*
 components/vendor/*
