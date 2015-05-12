@@ -1,0 +1,13 @@
+{
+    "name": "elit/elit-featured-slideshow",
+    "description": "Create a featured slideshow custom post type",
+    "require": {
+        "monolog/monolog": "~1.13"
+    },
+    "authors": [
+        {
+            "name": "pjsinco",
+            "email": "psinco@osteopathic.org"
+        }
+    ]
+}
